@@ -9,7 +9,7 @@
 		<title>Prashanthi R - Home</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!-- <link rel="stylesheet" href="{{ url_for('static',filename='../static/css/main.css')}}"> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<style type="text/css">	
 			@charset "UTF-8";
 @import url(font-awesome.min.css);
@@ -2018,6 +2018,7 @@
 		}
 
 			ul.icons li {
+				text-align: center;
 				display: inline-block;
 				padding: 0 1em 0 0;
 			}
@@ -2650,7 +2651,9 @@
 
 		}
 			.tab{
+
 				float: center;
+				text-align: center;
 			}
 			.tablink {
 			  background-color: #000000;
@@ -2659,7 +2662,7 @@
 			  border: none;
 			  outline: none;
 			  cursor: pointer;
-			  padding: 10px 12px;
+			  padding: 12px 15px;
 			  font-size: 12px;
 			  font-size: 100%;
 			  font: inherit;
@@ -2667,49 +2670,46 @@
 			.tablink:hover {
 		  		background-color: #777;
 			}
+			.myfont {
+			  font-weight: bolder;
+			  color: #ffffdd;
+			  text-align: center;
+			  align-self: center;
+			  cursor: pointer;
+			}
+			.myfont:hover {
+				background-color: #777;
+			}
 
 	</style>
 	</head>
 	<body>
-		<div class="tab" id="header">
+		<div class="tab">
 			<button class="tablink"><a href="#about"><h1>About</h1></a></button>
 			<button class="tablink"><h1>Personal</h1></button>
 			<button class="tablink"><h1>Work</h1></button>
 			<button class="tablink"><h1>Blog</h1></button>
 		</div>
-
 		<!-- Wrapper -->
 			<div id="wrapper">
-
-				<!-- Header -->
 					<header id="header">
 						<span class="avatar"><img src="static/images/prashanthi.jpg" alt="" /></span>
-						<h1><a id="about">This is <strong>Prashanthi</strong>'s website. She is a student at Ashoka University.</h1></a>
-						<ul class="icons">
-							<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
-							<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
+						<div class="myfont"><a href="https://prashanthi-r.github.io"><h1>PRASHANTHI RAMACHANDRAN</h1></a></div>
+						<div><a id="about"><h2><strong>Prashanthi</strong> is a graduate in Computer Science from Ashoka University, Sonipat. 
+						</h2></a></div>
+						<div><h2>She intends to do an advanced major in Computer Science and a minor (albeit online) in Sociology-Anthropology at The Ashoka Scholars Programme 2020.</h2></a></div>
 					</header>
-
-				<!-- Main -->
-					<section id="main">
-					</section>
-
 				<!-- Footer -->
 					<footer id="footer">
-						<p>&copy; Prashanthi R. All rights reserved. Design: <a href="http://templated.co">TEMPLATED</a>.</p>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/prashanthi-ramachandran-9a9006157/" class="fa fa-linkedin-square" style="font-size:30px"><span class="label"></span></a></li>
+							<li><a href="https://github.com/prashanthi-r" class="fa fa-github" style="font-size:30px"><span class="label"></span></a></li>
+							<li><a href="mailto: prashanthi.r@alumni.ashoka.edu.in" class="fa fa-envelope" style="font-size:30px"><span class="label"></span></a></li>
+						</ul>
+						<p>&copy; Prashanthi R. All rights reserved. </p>
+						<p>Design inspiration from: <a href="http://templated.co">TEMPLATED</a>.</p>
 					</footer>
 
 			</div>
-
-		<!-- Scripts -->
-			<script src="static/js/jquery.min.js"></script>
-			<script src="static/js/jquery.poptrox.min.js"></script>
-			<script src="static/js/skel.min.js"></script>
-			<script src="static/js/main.js"></script>
-
 	</body>
 </html>

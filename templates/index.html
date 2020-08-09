@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<!--
+	Visualize by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Prashanthi R - Home</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- <link rel="stylesheet" href="{{ url_for('static',filename='../static/css/main.css')}}"> -->
+		<style type="text/css">	
+
+
+		#header {
+			text-align: center;
+			padding: 6em 0 4em 0;
+		}
+
+			#header h1 {
+				color: rgba(255, 255, 255, 0.65);
+			}
+
+			#header .avatar {
+				border-radius: 100%;
+				display: inline-block;
+				margin: 0 0 2em 0;
+				padding: 0.5em;
+				border: solid 1px rgba(255, 255, 255, 0.25);
+				background-color: rgba(255, 255, 255, 0.075);
+			}
+
+				#header .avatar img {
+					border-radius: 100%;
+					display: block;
+					width: 10em;
+				}
+
+			@media screen and (max-width: 1280px) {
+
+				#header {
+					padding: 4em 0 2em 0;
+				}
+
+			}
+
+		#wrapper {
+			max-width: 68em;
+			width: 100%;
+			margin: 0 auto;
+			padding: 0 2em;
+			opacity: 1;
+			filter: none;
+			-moz-transition: opacity 1s ease, -moz-filter 1s ease;
+			-webkit-transition: opacity 1s ease, -webkit-filter 1s ease;
+			-ms-transition: opacity 1s ease, -ms-filter 1s ease;
+			transition: opacity 1s ease, filter 1s ease;
+		}
+
+		body.is-loading #wrapper {
+			opacity: 0;
+			-moz-filter: blur(1px);
+			-webkit-filter: blur(1px);
+			-ms-filter: blur(1px);
+			filter: blur(1px);
+		}
+
+		body.is-covered #wrapper {
+			-moz-filter: blur(3px);
+			-webkit-filter: blur(3px);
+			-ms-filter: blur(3px);
+			filter: blur(3px);
+		}
+
+
+		html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+
+		article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+
+		body {
+			line-height: 1;
+		}
+
+		ol, ul {
+			list-style: none;
+		}
+
+		blockquote, q {
+			quotes: none;
+		}
+
+		blockquote:before, blockquote:after, q:before, q:after {
+			content: '';
+			content: none;
+		}
+
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+		body
+		{
+		  background-color:#4da6ff;
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  height: 100vh;
+		  overflow: hidden;
+		}
+			.image-cropper {
+		    width: 100px;
+		    height: 100px;
+		    position: center;
+		    overflow: hidden;
+		    border-radius: 50%;
+			}
+			.profile-pic {
+			  display: inline;
+			  margin: auto;
+			  height: 100%;
+			  width: auto;
+			  position: center;
+			}
+			.tab{
+				float: center;
+			}
+			.tablink {
+			  background-color: #000000;
+			  color: white;
+			  float: center;
+			  border: none;
+			  outline: none;
+			  cursor: pointer;
+			  padding: 10px 12px;
+			  font-size: 12px;
+			  font-size: 100%;
+			  font: inherit;
+			}
+			.tablink:hover {
+		  		background-color: #777;
+			}
+
+	</style>
+	</head>
+	<body>
+		<div class="tab" id="header">
+			<button class="tablink"><a href="#about"><h1>About</h1></a></button>
+			<button class="tablink"><h1>Personal</h1></button>
+			<button class="tablink"><h1>Work</h1></button>
+			<button class="tablink"><h1>Blog</h1></button>
+		</div>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<span class="avatar"><img src="static/images/prashanthi.jpg" alt="" /></span>
+						<h1><a id="about">This is <strong>Prashanthi</strong>'s website. She is a student at Ashoka University.</h1></a>
+						<ul class="icons">
+							<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
+							<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+					</header>
+
+				<!-- Main -->
+					<section id="main">
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p>&copy; Prashanthi R. All rights reserved. Design: <a href="http://templated.co">TEMPLATED</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/jquery.poptrox.min.js"></script>
+			<script src="static/js/skel.min.js"></script>
+			<script src="static/js/main.js"></script>
+
+	</body>
+</html>

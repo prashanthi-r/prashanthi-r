@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Prashanthi R - Personal</title>
+		<title>Prashanthi R - Home</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -1411,7 +1411,7 @@
 
 	body {
 		background-color: #000;
-		background-image: url("../../images/bg.jpg");
+		background-color: black;
 		background-size: cover;
 		background-position: top center;
 	}
@@ -2682,7 +2682,112 @@
 			  cursor: pointer;
 			}
 			.myfont:hover {
-				background-color: #777;
+				/*background-color: #777;*/
+			}
+
+			* {box-sizing:border-box}
+			/* Slideshow container */
+			.slideshow-container {
+			  max-width: 1000px;
+			  position: relative;
+			  margin: auto;
+			}
+			.mySlides {
+			  display: none;
+			}
+
+			/* Next & previous buttons */
+			.prev{
+			  cursor: pointer;
+			  position: absolute;
+			  top: 50%;
+			  width: auto;
+			  margin-top: -40px;
+			  margin-left: -160px;
+			  padding: 16px;
+			  color: white;
+			  font-weight: bold;
+			  font-size: 18px;
+			  transition: 0.6s ease;
+			  border-radius: 0 3px 3px 0;
+			  user-select: none;
+			}
+			.next{
+			  cursor: pointer;
+			  position: absolute;
+			  top: 50%;
+			  width: auto;
+			  margin-top: -40px;
+			  margin-right: 150px;
+			  padding: 16px;
+			  color: white;
+			  font-weight: bold;
+			  font-size: 18px;
+			  transition: 0.6s ease;
+			  border-radius: 0 3px 3px 0;
+			  user-select: none;
+			}
+			/* Position the "next button" to the right */
+			.next {
+			  right: 0;
+			  border-radius: 3px 0 0 3px;
+			}
+
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover, .next:hover {
+			  background-color: rgba(0,0,0,0.8);
+			}
+
+			/* Caption text */
+			.text {
+			  color: #f2f2f2;
+			  font-size: 15px;
+			  padding: 8px 12px;
+			  position: absolute;
+			  bottom: 8px;
+			  width: 100%;
+			  text-align: center;
+			}
+
+			/* Number text (1/3 etc) */
+			.numbertext {
+			  color: #f2f2f2;
+			  font-size: 12px;
+			  padding: 8px 12px;
+			  position: absolute;
+			  top: 0;
+			}
+
+			.dot {
+			  cursor: pointer;
+			  height: 15px;
+			  width: 15px;
+			  margin: 0 2px;
+			  background-color: #bbb;
+			  border-radius: 50%;
+			  display: inline-block;
+			  transition: background-color 0.6s ease;
+			}
+
+			.active, .dot:hover {
+			  background-color: #717171;
+			}
+
+			.fade {
+			  -webkit-animation-name: fade;
+			  -webkit-animation-duration: 1.5s;
+			  animation-name: fade;
+			  animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+			  from {opacity: .4}
+			  to {opacity: 1}
+			}
+
+			@keyframes fade {
+			  from {opacity: .4}
+			  to {opacity: 1}
 			}
 
 	</style>
@@ -2692,19 +2797,66 @@
 			<button class="tablink"><a href="index.html"><h1>About</h1></a></button>
 			<button class="tablinkselect"><h1>Personal</h1></button>
 			<button class="tablink"><a href="work.html"><h1>Work</h1></a></button>
-			<button class="tablink"><a href="blog.html"><h1>Blog</h1></a></button>
+			<button class="tablink"><a href="blog.html"><h1>Photo Blog</h1></a></button>
 		</div>
 		<header id="header">
 				<div class="myfont"><a href="https://prashanthi-r.github.io"><h1>PRASHANTHI RAMACHANDRAN</h1></a></div>
-				<div text-align=center><a><ol>
-					<li>
-					</li>
-					<li>
-						 
-					</li>
-				</ul>
-				</a></div>
+				<h4>Singer, Dancer, Photographer, Learner, Writer</h4>
+				<br>
+				<div class="slideshow-container">
+					  <div>
+					    <div class="numbertext">1 / 4</div>
+					    <img src="static/images/1.jpg" style="width:40%">
+					    <div class="text">Caption Text</div>
+					  </div>
+
+					  <div class="mySlides fade">
+					    <div class="numbertext">2 / 4</div>
+					    <img src="static/images/2.jpg" style="width:100%">
+					    <div class="text">Caption Two</div>
+					  </div>
+
+					  <div class="mySlides fade">
+					    <div class="numbertext">3 / 4</div>
+					    <img src="static/images/3.jpg" style="width:100%">
+					    <div class="text">Caption Three</div>
+					  </div>
+					  <div class="mySlides fade">
+					    <div class="numbertext">4 / 4</div>
+					    <img src="static/images/4.jpg" style="width:100%">
+					    <div class="text">Caption Three</div>
+			  </div>
+			  <!-- Next and previous buttons -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span>
+			  <span class="dot" onclick="currentSlide(2)"></span>
+			  <span class="dot" onclick="currentSlide(3)"></span>
+			  <span class="dot" onclick="currentSlide(4)"></span>
+			</div>
+				<table text-align="left">
+					<tr>
+						<td>I am a Hindustani classical singer. I love <a href="https://hi.wikipedia.org/wiki/%E0%A4%97%E0%A4%BE%E0%A4%82%E0%A4%A7%E0%A4%BE%E0%A4%B0_%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%B0">Ga</a> and it's hard to explain why.</td>
+					</tr>
+					<tr><td><a href="https://en.wikipedia.org/wiki/Yaman_(raga)">Yaman</a> calms my soul.</td></tr>
+					<tr>
+						<td>I taught myself the scripts of Tamil and Gujarati by solely reading sign boards. I have been trying to learn Spanish in the lockdown.</td>
+					</tr>
+					<tr><td>I am a huge advocate of mental health.</td></tr>
+					<tr>
+						<td>I am very passionate about motivating Women in CS/Tech and helping them build confidence.</td>
+					</tr>
+					<tr><td>I am a people person. I need a human (or many---the more the better) to stay sane. I love interacting with people and learning about their experiences and culture. </td></tr>
+					<tr><td>I am an amateur photographer and writer. You can check some of my work out <a href="blog.html">here.</a></td></tr>
+					<tr><td>While I have my political inclinations, I try to question my beliefs and ideas constantly.</td></tr>
+					<tr><td>I am constantly trying to strike a balance between self-acceptance and dissatisfaction to enable growth.</td></tr>
+				</table>
+
 			</header>
+			<br>
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="icons">
@@ -2715,7 +2867,7 @@
 						<p>&copy; Prashanthi R. All rights reserved. </p>
 						<p>Design inspiration from: <a href="http://templated.co">TEMPLATED</a>.</p>
 					</footer>
-
 			</div>
+			<script src="{{ url_for('static',filename='static/carousel.js')}}"></script>
 	</body>
 </html>

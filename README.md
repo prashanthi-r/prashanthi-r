@@ -12,7 +12,7 @@ I am Prashanthi, a recent graduate from Brown University in Computer Science. He
  
 ### Research Projects 
 - [Accuracy-Privacy Tradeoffs in SOTA Weak-Supervision Models](https://github.com/prashanthi-r/private-weak-supervision): An analysis of the privacy-accuracy trade-offs with an added layer of differential privacy in two existing weak-supervision frameworks, Ratner et al. [2017] and Karamanolakis et al. [2021].
-  - [Report](https://github.com/prashanthi-r/private-weak-supervision/blob/main/CS2952C_Prashanthi_Shashidhar_Final_Report.pdf
+  - [Report](https://github.com/prashanthi-r/private-weak-supervision/blob/main/CS2952C_Prashanthi_Shashidhar_Final_Report.pdf)
 - [Private Matching](https://github.com/prashanthi-r/private-matching): A survey of private set intersection protocols over the decades for future compute
 - [BlockSim-Net](https://github.com/prashanthi-r/blocksim-net): A high performance, distributed, network-based blockchain simulator
   - [ArXiV](https://arxiv.org/abs/2011.03241)
